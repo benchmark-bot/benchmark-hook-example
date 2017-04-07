@@ -6,7 +6,7 @@ module.exports = {
 	concatV1(ITERATION) {
 		let s = "";
 		for(let i = 0; i < ITERATION; i++)
-			s += "test" + i;
+			s = s + "test" + i;
 		return s;	
 	},
 
